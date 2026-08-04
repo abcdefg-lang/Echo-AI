@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #dff6ff, #f7e8ff);
+    min-height: 100vh;
+    color: #333;
+}
+
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(10px);
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #6c63ff;
+}
+
+nav button {
+    margin-left: 10px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 20px;
+    background: #6c63ff;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* Welcome */
+
+.welcome {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.welcome h1 {
+    font-size: 45px;
+    color: #4b45c6;
+}
+
+.welcome p {
+    margin-top: 15px;
+    font-size: 18px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.start-button {
+    margin-top: 25px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+    background: #4b45c6;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+
+/* Chat */
+
+.chat-container {
+    width: 90%;
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+
+.chat-header {
+    padding: 20px;
+    background: #6c63ff;
+    color: white;
+}
+
+
+.messages {
+    height: 300px;
+    padding: 20px;
+}
+
+
+.echo-message {
+    background: #eeeeff;
+    padding: 15px;
+    border-radius: 15px;
+    width: fit-content;
+}
+
+
+.chat-input {
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+}
+
+
+.chat-input input {
+    flex: 1;
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+}
+
+
+.chat-input button {
+    padding: 15px 25px;
+    border-radius: 25px;
+    border: none;
+    background: #6c63ff;
+    color: white;
+}
+
+
+
+/* Plans */
+
+.plans {
+    text-align: center;
+    padding: 50px;
+}
+
+
+.plan-box {
+    display: inline-block;
+    width: 250px;
+    padding: 25px;
+    margin: 15px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+/* Instagram */
+
+.instagram {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #ff4fa3;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+}
