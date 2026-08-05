@@ -1,147 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Echo - Your Personal AI Helper</title>
+    <title>Echo AI</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Top Header -->
-    <header>
-        <div class="logo">
-            🔊 Echo
-        </div>
+    <div class="container">
 
-        <nav>
-            <button>Home</button>
-            <button>Features</button>
-            <button>Plans</button>
-            <button>Login</button>
-        </nav>
-    </header>
-
-
-    <!-- Welcome Section -->
-    <section class="welcome">
-
-        <h1>Hey! I'm Echo 👋</h1>
+        <h1>Echo</h1>
+        <h2>Your personal AI helper 🤖</h2>
 
         <p>
-            Your friendly, safe, and personal AI helper.
-            Ask questions, get ideas, learn new things,
-            and chat whenever you need help.
+            Friendly. Smart. Safe. Made to help you learn, create, and explore.
         </p>
 
-        <button class="start-button">
-            Start Chatting
-        </button>
+        <button>Start Chatting</button>
+        <button>Create Account</button>
 
-    </section>
+    </div>
 
-
-
-    <!-- AI Chat Area -->
-    <main class="chat-container">
-
-        <div class="chat-header">
-            <h2>💬 Chat with Echo</h2>
-        </div>
-
-
-        <div class="messages">
-
-            <div class="echo-message">
-                Hi! I'm Echo. How can I help you today? 😊
-            </div>
-
-        </div>
-
-
-        <div class="chat-input">
-
-            <input 
-            type="text" 
-            placeholder="Message Echo..."
-            >
-
-            <button>
-                Send
-            </button>
-
-        </div>
-
-    </main>
-
-
-
-    <!-- Plans Section -->
-    <section class="plans">
-
-        <h2>Choose Your Echo Experience</h2>
-
-
-        <div class="plan-box">
-
-            <h3>Free</h3>
-
-            <p>
-                Basic chatting with limits.
-            </p>
-
-        </div>
-
-
-        <div class="plan-box">
-
-            <h3>Premium ⭐</h3>
-
-            <p>
-                Faster responses and more features.
-            </p>
-
-        </div>
-
-
-        <div class="plan-box">
-
-            <h3>VIP 👑</h3>
-
-            <p>
-                The ultimate Echo experience.
-            </p>
-
-        </div>
-
-
-    </section>
-
-
-
-    <!-- Footer -->
-
-    <footer>
-
-        <p>
-            © 2026 Echo AI. Made with creativity and technology.
-        </p>
-
-    </footer>
-
-
-
-    <!-- Instagram Follow Button -->
-
-    <a class="instagram"
-    href="#">
-
+    <div class="instagram">
         Follow Echo on Instagram!
-
-    </a>
-
-
+    </div>
 
 <script src="script.js"></script>
 
